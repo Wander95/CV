@@ -1,0 +1,131 @@
+
+body{
+  margin:0px;
+  font-family: 'Montserrat', sans-serif;
+}
+h1{  font-family: 'Sacramento', cursive; font-size:4em; }
+h2{  font-family: 'Montserrat', sans-serif;font-size:2.5em;}
+h3{  color: #11999E;}
+
+h1,h2{
+  color:#66BFBF;
+  margin:0px;
+}
+p{
+  color:#40514E;
+}
+span{
+  text-decoration: underline;
+}
+/*=========Dots in the middle========*/
+.lines{
+  border-style: none;
+  border-top:10px dotted;
+  width: 7%;
+  color: #EAF6F6;
+  margin: 50px auto;
+}
+
+/*======Top Section=========*/
+.top-section{
+  background-color: #EAF6F6;
+  height: 70vh;
+  padding: 7%;
+  text-align: center;
+}
+
+.top-cloud{
+  position: absolute;
+  left:73%;
+  top:5%;
+}
+.bottom-cloud{
+  position: absolute;
+  right: 73%;
+}
+.mountain{
+  margin: auto;
+}
+
+.profilePic{
+  margin-top: 50px;
+}
+/*===========Middle Section=============*/
+.middle-section{
+  line-height: 40px;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+/*===========Middle Section=============*/
+/*===========*Skill Section*=============*/
+.skillSection{
+  margin: 100px auto;
+}
+.skillTitle{
+  margin: 70px;
+}
+.skillRow{
+  text-align: left;
+}
+/*========Pictures==========*/
+.computer{
+  height: 200px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 20px;
+}
+
+.chillie{
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+}
+/*===========Get In touch Section=============*/
+.getMe{
+  clear: both;
+}
+
+/*============Buttom==============*/
+.myButton {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+	background-color:#11999E;
+	border-radius:16px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*===============Bottom Section=================*/
+.bottom-section{
+  background-color: #66BFBF;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 20px;
+}
+.bottomlinks{
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px;
+}
+
+#copyright{
+  color: #EAF6F6;
+  margin: 0px;
+  padding: 20px;
+}
